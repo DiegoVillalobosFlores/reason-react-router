@@ -15,9 +15,8 @@ let make = (~message, _children) => {
         <h2> (ReasonReact.stringToElement(message)) </h2>
       </div>
       <p className="App-intro">
-        (ReasonReact.stringToElement("To get started, edit"))
-        <code> (ReasonReact.stringToElement(" src/app.re ")) </code>
-        (ReasonReact.stringToElement("and save to reload."))
+        <code> (ReasonReact.stringToElement(" Pinche asco es JavaScript ")) </code>
+        <code> (ReasonReact.stringToElement(" #reason #ocaml ")) </code>
       </p>
       <a href="#/pene">{ReasonReact.stringToElement("Pene")}</a>
     </div>
